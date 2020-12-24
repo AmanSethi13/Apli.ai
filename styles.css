@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to right, rgb(40, 215, 40), rgb(60, 167, 175)); */
+}
+.rating-stars ul {
+    list-style-type: none;
+    padding: 0;
+  
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+}
+
+.rating-stars ul>li.star {
+    display: inline-block;
+
+}
+.rating-stars ul>li.star>i.fa { 
+    font-size: 2.5em;
+    /* Change the size of the stars */
+    color: #ccc;
+    /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul>li.star.hover>i.fa {
+    color: #FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul>li.star.selected>i.fa {
+    color: #FF912C;
+}
+
+.nav{
+    /* display: flex; */
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+.nav-bar{
+    float:left;
+    border-right:1px solid #bbb;
+}
+ li.nav-bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.active {
+    background-color: #4CAF50;
+}
+li.nav-bar a:hover:not(.active) {
+    background-color: #111;
+   
+}
+ li.nav-bar a:hover {
+  text-decoration: none;
+    
+}
+video{
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 650px;
+    
+}
+#stars{
+    /* width: 500px; */
+    padding: 0;
+    margin: 0;
+}
+.text-message{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.comment{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+.submitbutton{
+    /* display: block; */
+    margin-top: 10px;
+    /* margin-left: 550px; */
+    margin-top: 20px;
+    width: 200px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: black 4px solid;
+}
+.image {
+    min-height: 300px;
+    max-width: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+.image h4 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    margin: 0;
+    padding: 10px; */
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img-preview {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    min-height: 200px;
+    max-width: 250px;
+}
+
+.img-container {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-position: center top;
+}
+
+/* .pager{
+    position: relative;
+    background: #fff;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+} */
+
+ul.pagination li{
+    list-style: none;
+    line-height: 40px;
+    margin: 0 5px;
+}
+ul li.pagenumber{
+    
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+ul.pagination li a{
+    font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 2px;
+    
+}
+ul li.pagenumber:hover a {
+    color: #ffffff;
+
+   background: #337Ab7;
+}
+
+ul.pagination li a.prev{
+    margin-right: 50px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+ul.pagination li a.next {
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.table{
+    margin: 10px;
+    margin-right: 20px;
+
+}
+.res{
+    display: none;
+}
+.pageDisplay{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.about{
+    margin-top: 30px;
+}
+
+.star{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-bottom: 30px; */
+}
+
+.rating-stars{
+      margin-bottom: 100px;
+}
+
+.com{
+    margin-bottom: 10px;
+}
+caption{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+table{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+div.col-md-7{
+    padding: 0;
+}
+div.col-md-3 {
+    padding: 0;
+}
+div.col-md-12 {
+    padding: 0;
+}
+div.col-md-12.com {
+    padding: 0;
+}

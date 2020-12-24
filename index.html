@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Apli Intern</title>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li class="nav-bar"><a href="#home">Home</a></li>
+            <li class="nav-bar"><a href="#news">Contact</a></li>
+            <li class="nav-bar"><a href="#contact">About</a></li>
+            <li class="nav-bar" style="float:right"><a class="active" href="#about">Apli.ai</a></li>
+            </ul>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="image">
+                <img class="img-container img-preview" src="./candidate.jpg">
+                <h4>Candidate</h4>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-7">
+                    <ul class="pagination pagination-lg" id="pageNo">
+                        <li><a href="#" class="prev"><span aria-hidden="true">&laquo;</span>  Prev</a></li>
+                        <li class="pagenumber active" value="1"><a href="#" >1</a></li>
+                        <li class="pagenumber" value="2"><a href="#">2</a></li>
+                        <li class="pagenumber" value="3"><a href="#">3</a></li>
+                        <li class="pagenumber" value="4"><a href="#">4</a></li>
+                        <li class="pagenumber" value="5"><a href="#">5</a></li>
+                        <li><a href="#" class="next">Next <span aria-hidden="true">&raquo;</span></a></li>
+                    </ul>
+                    <div class="ques">
+                    <div class='box'>
+                    
+                        <div class='pageDisplay'>Question 1</div>
+                    
+                    </div>
+                    <video width="350" controls>
+                        <source src="./vid/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    <div class="res">
+                        <div class="row">
+                            <div class="col-mid-7">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <caption>Result</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Question Number</th>
+                                            <th>Question </th>
+                                            <th>Ratings</th>
+                                            <th>Comments</th>
+                        
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Question 1</td>
+                                            <td class="r1"></td>
+                                            <td class="c1"></td>
+                        
+                        
+                        
+                        
+                                        </tr>
+                                        <tr >
+                                            <th scope="row">2</th>
+                                            <td>Question 2</td>
+                                            <td class="r2"></td>
+                                            <td class="c2"></td>
+                        
+                                        </tr>
+                                        <tr >
+                                            <th scope="row">3</th>
+                                            <td>Question 3</td>
+                                            <td class="r3"></td>
+                                            <td class="c3"></td>
+                        
+                                        </tr>
+                                        <tr >
+                                            <th scope="row">4</th>
+                                            <td>Question 4</td>
+                                            <td class="r4"></td>
+                                            <td class="c4"></td>
+                        
+                                        </tr>
+                                        <tr >
+                                            <th scope="row">5</th>
+                                            <td>Question 5</td>
+                                            <td class="r5"></td>
+                                            <td class="c5"></td>
+                        
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                   
+                        
+                        <div class="feedback">
+                            <div class='rating-stars text-center'>
+                                <h3 class="star">GRADE VIDEO ANSWER</h3>
+                                <ul id='stars'>
+                                    <li class='star' title='Poor' data-value='1'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Fair' data-value='2'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Good' data-value='3'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='Excellent' data-value='4'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star' title='WOW!!!' data-value='5'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                </ul>
+                                <div class='success-box'>
+                            
+                                    <div class='text-message'></div>
+                            
+                                </div>
+                            
+                            
+                            
+                                <div class="row about">
+                                    <h3 class="star">ANY COMMENTS</h3>
+                                    <div class="col-md-12 com">
+                                        <input type="text" name="comments" placeholder="Comment(Optional)" id="comment" class="comment">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="button" class="submitbutton btn btn-primary btn-lg">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                   
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
